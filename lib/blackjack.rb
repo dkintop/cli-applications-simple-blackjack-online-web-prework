@@ -59,13 +59,7 @@ end
 #####################################################
 
 def runner
-  welcome
-  initial_round
-  card_total = initial_round
-  do
-    hit?(card_total)
-    display_card_total
-    until
+ 
     
  
 end
