@@ -36,6 +36,7 @@ def initial_round
 end
 
 def hit?(current_total)
+  binding.pry
   prompt_user
   get_user_input
   if get_user_input = 's'
