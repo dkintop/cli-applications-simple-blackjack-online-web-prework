@@ -36,14 +36,14 @@ def initial_round
 end
 
 def hit?(current_total)
-  binding.pry
+  
   prompt_user
   get_user_input
   if get_user_input = 's'
     current_total = current_total
   elsif get_user_input = 'h'
   current_total = deal_card + current_total
-  
+  binding.pry
   else
     invalid_command
     prompt_user
