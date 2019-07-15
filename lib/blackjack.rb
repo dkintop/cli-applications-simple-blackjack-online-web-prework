@@ -63,7 +63,7 @@ def runner
   initial_round
   card_total = initial_round
   do
-    hit?
+    hit?(card_total)
     display_card_total
     until
     
