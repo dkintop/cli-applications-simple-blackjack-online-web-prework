@@ -60,6 +60,12 @@ end
 
 def runner
   welcome
+  initial_round
+  do
+    hit?
+    display_card_total
+    until
+    
  
 end
 
