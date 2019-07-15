@@ -42,9 +42,8 @@ def hit?(current_total)
   if get_user_input = 's'
     current_total = current_total
   elsif get_user_input = 'h'
-  card = deal_card 
-  current total = current_total + card
-  current_total
+  deal_card 
+  
   
   else
     invalid_command
