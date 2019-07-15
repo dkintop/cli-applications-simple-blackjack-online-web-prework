@@ -43,7 +43,7 @@ def hit?(current_total)
     current_total = current_total
   elsif get_user_input = 'h'
   current_total = deal_card + current_total
-  binding.pry
+  
   else
     invalid_command
     prompt_user
